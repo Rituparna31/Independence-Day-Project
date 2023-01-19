@@ -6,16 +6,17 @@
   <title>Republic Day Animation</title>
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
     function Play() {
-      //var myAudio = document.getElementById("audioval");
-      //myAudio.play();
-      var audio = new Audio('Sare.mp3');
-      audio.play();
+      var myAudio = document.getElementById("audioval");
+      myAudio.play();
+      // var audio = new Audio('Sare.mp3');
+      // audio.play();
     }
   </script>
   <script type="text/javascript">
@@ -70,7 +71,7 @@
     Indian Flag
     <!-- <button >Flag Hoisting</button> -->
   </a><br>
-  <a style="margin-left: 50px;" class="button" onClick="Play()">Play Song</a>
+  <button style="margin-left: 100px;" class="btn" onclick="Play()"><i class="fa fa-play"></i></button>
 </body>
 
 </html>
